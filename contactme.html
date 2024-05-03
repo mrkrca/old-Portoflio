@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>  
+<div class="wrapper-all">
+<div class="wrapper-contactme">
+    <div class="header">
+        <div class="left-header">
+          <h1>ALEKSA <span>ĐURIĆ</span></h1>
+        </div>
+        <div class="middle-header">
+          <ul>
+            <li>
+              <a target="_blank" href="/index.html">HOME</a>
+            </li>
+            <li>
+              <a href="/about.html">ABOUT</a>
+            </li>
+            <li>
+              <a href="/projects.html">PROJECTS</a>
+            </li>
+            <li>
+              <a href="/contactme.html">CONTACT</a>
+            </li>
+          </ul>
+        </div>
+
+        <section class="top-nav">
+          <input id="menu-toggle" type="checkbox" />
+          <label class='menu-button-container' for="menu-toggle">
+          <div class='menu-button'></div>
+        </label>
+          <ul class="menu">
+            <li>
+              <a href="index.html">HOME</a>
+            </li>
+            <li>
+              <a href="/about.html">ABOUT</a>
+            </li>
+            <li>
+              <a  href="/projects.html">PROJECTS</a>
+            </li>
+            <li>
+              <a href="/contactme.html">CONTACT</a>
+            </li>
+          </ul>
+        </section>
+        
+        <div class="social-icons">
+            <a href="https://www.facebook.com/aleksa.dj.djuric/">
+              <img src="images/facebook.png" alt="facebook">
+            </a>
+            <a href="https://www.instagram.com/mrkrca.dj/">
+              <img src="images/instagram.png" alt="instagram">
+            </a>
+            <a href="https://twitter.com/">
+              <img src="images/twitter.png" alt="twitter">
+            </a>        
+          </div>
+      </div>
+        <div class="contactme">
+            <div class="contactme-holder">
+                <h3 class="contactme-text">CONTACT <span>ME</span></h1>
+            </div>
+            <div class="container">
+                <form action="action_page.php">
+              
+                  <label class="ime-prezime" for="fname">Ime i prezime</label>
+                  <input type="text" id="fname" name="firstname" >
+            
+                  <label class="gmail" for="lname">Email adresa</label>
+                  <input type="text" id="lname" name="lastname" >
+                  
+                  <label class="broj-telefona" for="lname">Broj telefona</label>
+                  <input type="text" id="lname" name="lastname">
+               
+                  <label class="vasa-poruka" for="subject">Vaša poruka / dodatne informacije</label>
+                  <textarea id="subject" name="subject"  style="height:200px"></textarea>
+              
+                </form>
+                   <button>POŠALJI PORUKU</button>
+
+              </div>
+        </div>
+</div>
+</div> 
+        <script src="js/index.js"></script>         
+</body>
+</html>
